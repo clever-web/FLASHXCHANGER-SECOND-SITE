@@ -1,0 +1,249 @@
+:root{
+    font-size: 16px;
+    font-family: Heebo-light;
+    --main-color: #B158E2;
+    --nav-black: #06062B;
+    --main-black: #000116;
+    --block: #293C8B;
+}
+
+body{
+    background-color: var(--main-black);
+}
+
+
+.login-bg{
+    background: url(../images/exported/login_bg.svg) no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg-image{
+    background: url(../images/mob-bg2.png) no-repeat;   
+    background-position: center;
+    background-size: cover;
+}
+
+
+.welcome-heading h1{
+    font-size: 3rem;
+}
+
+.start-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 0.8rem 3rem;
+    border-radius: 50px;
+}
+
+.contact-us{
+    text-align: center;
+    margin-top: 27rem;
+    margin-bottom: 5rem;
+}
+
+.contact-us div{
+    font-family: Heebo-light;
+    font-size: 1.5rem;
+}
+
+.contact-us button{
+    background: linear-gradient(348.69deg,#3795a1,#293c8b) !important;
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+}
+
+
+.start-btn:hover{
+    transition: .3s;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.4);
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 1.2rem !important;
+}
+
+
+span{
+    vertical-align: middle;
+}
+
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    transition: .3s;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.from input, .to input{
+    margin: 0 !important;
+    margin-left: 0.5rem !important;
+    width: 90px;
+    height: 35px;
+}
+
+
+.font-light{
+    font-family: Heebo-Thin;
+}
+
+
+.ads-container{
+  height: 20vh;
+}
+  
+.m-hide{
+  display: none;
+}
+
+
+
+
+
+
+
+/* keyframes */
+
+@keyframes bgimagechange {
+  0% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  40% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  50% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  90% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  100% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes bgimagechange {
+  0% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  40% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  50% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  90% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  100% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+}
+
+/* firefox */
+
+@-moz-keyframes bgimagechange {
+  0% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  40% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  50% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  90% {
+      background: url(../images/grey-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+  100% {
+      background: url(../images/purpur-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #0d112b;
+      background-size: cover;
+  }
+}
+
+.f-image{
+    z-index: 999;
+}
+
+.animation-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#overlay{
+    display: none;
+    width:160px;
+    height:160px;
+    position: absolute;
+    animation-name: spin;
+    top: 208px;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

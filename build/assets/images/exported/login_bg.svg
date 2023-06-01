@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="800" viewBox="0 0 1400 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000116;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b158e2"/>
+      <stop offset="0.636" stop-color="#06062b" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#000006"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(2928 926)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="1400" height="800" transform="translate(-2928 -926)"/>
+    <rect id="BG" class="cls-2" width="1400" height="800" transform="translate(-2928 -926)"/>
+  </g>
+</svg>

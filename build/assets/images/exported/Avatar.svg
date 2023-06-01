@@ -1,0 +1,9 @@
+<svg id="Avatar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M16,16H0V14c0-2.627,5.208-4,8-4s8,1.374,8,4v2ZM8,8a4,4,0,1,1,4-4A4.005,4.005,0,0,1,8,8Z" transform="translate(10 10)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle" width="35" height="35" rx="2" fill="#8b959e"/>
+  <path id="Mask-2" data-name="Mask" d="M16,16H0V14c0-2.627,5.208-4,8-4s8,1.374,8,4v2ZM8,8a4,4,0,1,1,4-4A4.005,4.005,0,0,1,8,8Z" transform="translate(10 10)" fill="#fff"/>
+</svg>

@@ -1,0 +1,140 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .socials {
+        justify-content: center;
+    }
+    .terms-buttons {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .bg-image {
+        animation: 20s infinite bgimagechange;
+        -moz-animation: 20s infinite bgimagechange;
+        -webkit-animation: bgimagechange 10s infinite;
+    }
+    #overlay{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .socials {
+        justify-content: left;
+    }
+    .terms-buttons {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .contact-us{
+        margin-top: 0 !important;
+    }
+    #overlay{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .socials {
+        justify-content: left;
+    }
+    .terms-buttons {
+        margin-top: o;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .support, .profile-btn, .username-text, .username-link, .logout-img {
+        display: block !important;
+    }
+    .support-text, .profile-text, .logout-text {
+        display: none !important;
+    }
+    .m-hide {
+        display: block !important;
+    }
+    .f-image {
+        margin-top: 220px !important;
+    }
+    .contact-us{
+        text-align: left;
+    }
+    .login-n-regigster{
+        height: auto;
+    }
+    .contact-us{
+        margin-top: 0 !important;
+    }
+    .start-btn{
+        display: none;
+    }
+    .welcome-socials{
+        display: none;
+    }
+    #overlay{
+        display: block;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .socials {
+        justify-content: left;
+    }
+    .terms-buttons {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .support, .profile-btn, .username-text, .username-link, .logout-img {
+        display: block !important;
+    }
+    .support-text, .profile-text, .logout-text {
+        display: none !important;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .m-hide {
+        display: block !important;
+    }
+    .f-image {
+        margin-top: 220px !important;
+    }
+    .contact-us{
+        text-align: left;
+    }
+    .login-n-regigster{
+        height: auto;
+    }
+    .contact-us{
+        margin-top: 0 !important;
+    }
+    .start-btn{
+        display: none;
+    }
+    .welcome-socials{
+        display: none;
+    }
+    #overlay{
+        display: block;
+    }
+}
